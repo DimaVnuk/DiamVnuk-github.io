@@ -1,15 +1,89 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.main-paige-cont{
-    width: 100%;
-    height: auto;
+
+@font-face {
+  font-family: MyriadPro;
+  src: url("../fonts/MyriadPro.otf");
 }
-.main-paige-cont_bg-image{
-    width: 100%;
-    background: url("../image/background_main.png");
-    background-repeat: no-repeat;
-    background-size: contain;
+.one-word-yellow{
+  color: #ffc600;
+}
+.main-paige-cont {
+  width: 100%;
+  height: 1086px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-paige-cont_bg-image {
+  background-image: url("../image/background_main.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sublime_wrap-sublime{
+  padding-left: 345px;
+}
+
+.title-sublime {
+  font-family: MyriadPro;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #ffffff;
+  padding-left: 50px;
+}
+
+.title-sublime_font-size {
+  font-size: 200px;
+}
+
+.sub-title-sublime {
+  font-family: MyriadPro;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
+  padding-left: 50px;
+  position: relative;
+  bottom: 10px;
+}
+
+.awesome-games_bg-image {
+  width: 1198px;
+  height: 654px;
+  background-image: url("../image/header_image.png");
+  background-repeat: no-repeat;
+
+}
+
+.title-awesome-games {
+  padding-top: 50px;
+  font-family: MyriadPro;
+  font-size: 60px;
+  line-height: 48px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #ffffff;
+  padding-left: 50px;
+}
+
+.nav-awesome-games_font-size-wrap {
+  width: 430px;
+  display: flex;
+  justify-content: space-between;
+  font-family: MyriadPro;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffc600;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+.paige-header__wrap-cont-games{
+  display: flex;
+  justify-content: center;
 }
